@@ -1,0 +1,302 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+body{
+    display: block;
+}
+.logoIcon {
+    height: 5rem;
+    width: 15rem;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    unicode-bidi: isolate;
+}
+.headerContent{
+    /* padding-left: 5%;
+    padding-right: 5%;
+    width: 90%; */
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    display: flex;
+    text-decoration: none;
+}
+.logoIcon{
+
+}
+.logoText{
+    color: white;
+    font-size: 2rem;
+    height: 63px;
+    text-align: center;
+    padding-top: 17px;
+}
+.vkextra{
+
+    padding-left: 20%;
+    padding-right: 20%;
+    width: 25%;
+    margin: 20px;
+}
+.navLink{
+    text-decoration: none;
+    color: white;
+    padding-right: 25px;
+    font-weight: bold;
+}
+.contactButton{
+
+    height: 2px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    height: 12px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: #00FFFF;
+    padding: 6px;
+    border-radius: 10%;
+    font-weight: 900;
+}
+.menuButton{
+    display: none;
+}
+
+.sectionLevel{
+    color: #00FFFF;
+}
+.sectionTitle{
+    font-size: 60px;
+    color: #DAA521;
+    padding: 10px;
+}
+.mainSection{
+    display: flex;
+    flex-direction: row;
+}
+.sectionImage {
+    height: 25rem;
+    width: 25rem;
+}
+.startButton{
+    display: inline-block;
+    height: 2px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    height: 12px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: 24px;
+    background-color: #00FFFF;
+    padding: 6px;
+    border-radius: 10%;
+    font-weight: 900;
+}
+.mainTitle{
+    color: #00FFFF;
+    text-align: center;
+    font-size: 3rem;
+}
+.mainDescription{
+    padding: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+
+/* 3rd part */
+.featureContent{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.featureGrid {
+    display: flex;
+    flex-wrap: wrap;      /* Allow items to wrap onto the next line */
+    gap: 10px;            /* Optional, space between the items */
+  }
+  
+  .featureCard {
+    background-color: red;
+    width: 40%;           /* Each item will take up about 50% of the parent width */
+  padding: 20px;
+  text-align: center;
+  }
+.featuresvg{
+    background-color: white;
+    height: 3rem;
+    width: 4rem;
+}
+.featureTitle{
+    font-weight: bold;
+}
+.featureDescription{
+
+}
+#icon1{
+    background-color: red;  
+}
+
+
+
+
+/* part4 */
+.skillContainer{
+    margin: 20px;
+}
+h2{
+    text-align: center;
+    color: #DAA521;
+}
+.skillsGrid{
+    color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.skillsItem{
+    align-items: center;
+    height: 100px;
+    width: 100px;
+}
+.skillIcon{
+    height: 1rem;
+
+}
+.skillName{
+    font-weight: bold;
+}
+
+
+
+
+/* 5th part */
+.projectContainer{
+
+}
+.projectContent{
+    
+}
+.projectGrid{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+.projectCard{
+    padding: 1%;
+    width: 31%;
+}
+.projectHeading{
+    padding: 5px;
+    color: rgb(204, 11, 230);
+}
+.projectText{
+    color: aliceblue;
+}
+
+
+/* 5th part */
+form{
+    display: flex;
+    flex-direction: column;
+}
+.feedbackInput{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 3%;
+    border-color: #ea5e78;
+}
+textarea{
+    height: 200px;
+}
+.submitButton{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 3%;
+    border-color: #ea5e78;
+    background-color: rgb(192, 96, 96);
+}
+
+
+
+
+/* last part */
+.logo{
+    height: 5rem;
+    width: 15rem;
+}
+.compLogo{
+    height: 5rem;
+    width: 15rem;
+}
+.footerContainer{
+    text-align: center;
+}
+.footer{
+    text-align: left;
+    display: flex;
+    margin-bottom: 20px;
+}
+.fotterTop{
+    width: 20%;
+}
+.compLogo{
+
+}
+.logoLink{
+    
+}
+.fillerText{
+    
+}
+.socialMedia{
+    
+}
+.socialLink{
+    text-decoration: none;
+}
+.socialIcon{
+    height: 2rem;
+}
+
+
+
+.fotterGrid{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerGridColumn{
+    padding: 2%;
+    width: 21%;
+}
+.footerGridHeading{
+    font-weight: bold;
+    padding: 5px;
+}
+.footerLists{
+    margin-bottom: 20px;
+}
+.footerLink{
+    text-decoration: none;
+}
